@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../quickjs-kt/1.0.16-yonto.1/quickjs-kt-1.0.16-yonto.1.module",
+    "group": "io.github.yonto-app",
+    "module": "quickjs-kt",
+    "version": "1.0.16-yonto.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickjs-macosX64Main.klib",
+          "url": "quickjs-kt-macosx64-1.0.16-yonto.1.klib",
+          "size": 244827,
+          "sha512": "8a1357ca51a1f4472880c4ea0c55598e70b5cd6b5d62f08bccf072baf4de234b0ea9b5f3a9778147a4d986096c4bac5731f0dd8a675998e7eba8f28d9f40f3d5",
+          "sha256": "e79f83026d2a2a0dae0035ec4145f3e64c5f261de668c98c1edd9dcc0a314112",
+          "sha1": "d3f483ba1121eebf0cd79cb915d668c22b51286c",
+          "md5": "35dc34a303abd20038beb849e4eb3b61"
+        },
+        {
+          "name": "quickjs-macosX64Cinterop-quickjsMain.klib",
+          "url": "quickjs-kt-macosx64-1.0.16-yonto.1-cinterop-quickjs.klib",
+          "size": 468530,
+          "sha512": "92c5f9143c32669b5d609b5d5f2cb0191f2c82aec6d6d087e18ae7e6f6c79eb4565684bc51ca73270cee7af481eb4ca2ecf88bcef5e6a9b3b6701e391ee140fe",
+          "sha256": "bf04a1e3c541124c0e57948706ff2b3088a920ee6b13a7a1d78745c8a80e8608",
+          "sha1": "6e3ff039a7fe0f61b5e196235af25f0e68bd8c1d",
+          "md5": "5192cb8a655d377d2bb1d2f07a4b7e14"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "quickjs-macosx64-sources.jar",
+          "url": "quickjs-kt-macosx64-1.0.16-yonto.1-sources.jar",
+          "size": 50866,
+          "sha512": "141f16a85cd4dc3514f219514f9fa67fbf42a943387806efac7327020096425802bf01ef55dbd7dba15c63939e6db8336b3c64a72435870f64f1aefef9923b7a",
+          "sha256": "8e1ae9e27ae0db4b33452d397ef4572cf06529d54f1b99237e896e6f4b0bd5d6",
+          "sha1": "cb612828b3dbadfd282597d0e03b863a4898ab8f",
+          "md5": "1d83623433a926fd295100516fdaf1b0"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickjs-macosx64-metadata.jar",
+          "url": "quickjs-kt-macosx64-1.0.16-yonto.1-metadata.jar",
+          "size": 79390,
+          "sha512": "08e93c64919fb9e133badde5ed4502c749d3f3279d881f2d948bea9975697caa1c203ee52ac6ac6a5399d59ec87c65995a247068d03c6e1fa2ce77374d99a863",
+          "sha256": "ce5b12a8e21d3beef50ee94def77a5707a9307c5f9510cbb439f5c04169ff0c3",
+          "sha1": "4e857d4ffdde8ae1b9974cc0846b95ef657ee85e",
+          "md5": "d36efcde0df325d457e4169ee601da1f"
+        }
+      ]
+    }
+  ]
+}
