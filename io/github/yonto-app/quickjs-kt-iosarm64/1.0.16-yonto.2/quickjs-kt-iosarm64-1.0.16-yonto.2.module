@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../quickjs-kt/1.0.16-yonto.2/quickjs-kt-1.0.16-yonto.2.module",
+    "group": "io.github.yonto-app",
+    "module": "quickjs-kt",
+    "version": "1.0.16-yonto.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickjs-iosArm64Main.klib",
+          "url": "quickjs-kt-iosarm64-1.0.16-yonto.2.klib",
+          "size": 244826,
+          "sha512": "fdac2cdbcd18e5ba32dd79f016a0e0e0cf25538956f54ac5b84ceab547d690fbff562e633f7ad229edd26f0ca8f911f596305f343477d74ca29f0cf7507b7f4b",
+          "sha256": "302b5b9e4690a9a063b2cc0c70871aa1d4e2b8bbe29d09b169ee7aceaf339c3d",
+          "sha1": "ac60c1cf8bce278e299dac05d78c1314382ded68",
+          "md5": "c5a0e4c0d49d05132b0a77945c80d7bb"
+        },
+        {
+          "name": "quickjs-iosArm64Cinterop-quickjsMain.klib",
+          "url": "quickjs-kt-iosarm64-1.0.16-yonto.2-cinterop-quickjs.klib",
+          "size": 431498,
+          "sha512": "f8b4a73558a213048155cf186652a88172e34d593f9d36152ed23942b85bfb504e6b168a36e7314e051554a783ffab4b06a21d52e711c8c0f846dd1a3eab783b",
+          "sha256": "213b4bad7e20c5b34a4d630d87f89e11ff802a9b18560f86123b71cdf2402a98",
+          "sha1": "cb331a988a2d76033b3b61a901c5c57c5c865fa0",
+          "md5": "ca29b2aaf7606cff5294574b67b9a1bb"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "quickjs-iosarm64-sources.jar",
+          "url": "quickjs-kt-iosarm64-1.0.16-yonto.2-sources.jar",
+          "size": 50866,
+          "sha512": "141f16a85cd4dc3514f219514f9fa67fbf42a943387806efac7327020096425802bf01ef55dbd7dba15c63939e6db8336b3c64a72435870f64f1aefef9923b7a",
+          "sha256": "8e1ae9e27ae0db4b33452d397ef4572cf06529d54f1b99237e896e6f4b0bd5d6",
+          "sha1": "cb612828b3dbadfd282597d0e03b863a4898ab8f",
+          "md5": "1d83623433a926fd295100516fdaf1b0"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickjs-iosarm64-metadata.jar",
+          "url": "quickjs-kt-iosarm64-1.0.16-yonto.2-metadata.jar",
+          "size": 70610,
+          "sha512": "d5c5f5498c67b5f7a2aeb6305d78255ab573a151f204e651503a9e811aa72cf326f6c42ce032bd785864fdf5108522dad9fa7eb6f3c2a2a1d99dc038657d8982",
+          "sha256": "7ad830b1ea286245f980352002a40eb4cc35328c8c6822a47158cfda566fd2ec",
+          "sha1": "56d8a7e5e81ab9d496d69c643ce1e840bbfec815",
+          "md5": "8338bd27ab375ba512d795faa2e28375"
+        }
+      ]
+    }
+  ]
+}
