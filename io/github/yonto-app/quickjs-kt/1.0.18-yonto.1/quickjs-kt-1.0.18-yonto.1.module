@@ -1,0 +1,626 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.yonto-app",
+    "module": "quickjs-kt",
+    "version": "1.0.18-yonto.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickjs-metadata.jar",
+          "url": "quickjs-kt-1.0.18-yonto.1.jar",
+          "size": 2197479,
+          "sha512": "b65c0f6bfba68bf843c2f6258027ce98079a53ac202a958051a924675bbee1659f97a6d9d9f0af634877e570553fb3a630fe2c28c9b07ba81ecbf27e28d1d316",
+          "sha256": "28f1e079437b4ac1aac33d9b58486466e205b784914965c1bf0f3ccb47f26ee5",
+          "sha1": "7cf0ac241355b8859382e4d5eadcb3a2e3299c2e",
+          "md5": "f17f84412d069709d732916a4ee750fc"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "quickjs-kotlin-sources.jar",
+          "url": "quickjs-kt-1.0.18-yonto.1-sources.jar",
+          "size": 65740,
+          "sha512": "3b209bb5a409b02085ead8576c95639082bb263e6c35b215b0b239f8007c0c3258b8186105625f53626c17b0af6056a32b96a9f1e3146e5a2139061211181a30",
+          "sha256": "e07e4dfadb952d1ab0c62218f6417b3363adaf90647468b0ba1a00d87fb01f13",
+          "sha1": "8ff188d971025031b16f8c57bcda25f1a369b093",
+          "md5": "f075fc7686de508cf13cb06823e1de06"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-android/1.0.18-yonto.1/quickjs-kt-android-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-android",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-android/1.0.18-yonto.1/quickjs-kt-android-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-android",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-android/1.0.18-yonto.1/quickjs-kt-android-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-android",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-iosarm64/1.0.18-yonto.1/quickjs-kt-iosarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-iosarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-iosarm64/1.0.18-yonto.1/quickjs-kt-iosarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-iosarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-iosarm64/1.0.18-yonto.1/quickjs-kt-iosarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-iosarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-iossimulatorarm64/1.0.18-yonto.1/quickjs-kt-iossimulatorarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-iossimulatorarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-iossimulatorarm64/1.0.18-yonto.1/quickjs-kt-iossimulatorarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-iossimulatorarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-iossimulatorarm64/1.0.18-yonto.1/quickjs-kt-iossimulatorarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-iossimulatorarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-iosx64/1.0.18-yonto.1/quickjs-kt-iosx64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-iosx64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-iosx64/1.0.18-yonto.1/quickjs-kt-iosx64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-iosx64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-iosx64/1.0.18-yonto.1/quickjs-kt-iosx64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-iosx64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-jvm/1.0.18-yonto.1/quickjs-kt-jvm-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-jvm",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-jvm/1.0.18-yonto.1/quickjs-kt-jvm-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-jvm",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-jvm/1.0.18-yonto.1/quickjs-kt-jvm-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-jvm",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-linuxarm64/1.0.18-yonto.1/quickjs-kt-linuxarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-linuxarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-linuxarm64/1.0.18-yonto.1/quickjs-kt-linuxarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-linuxarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-linuxx64/1.0.18-yonto.1/quickjs-kt-linuxx64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-linuxx64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-linuxx64/1.0.18-yonto.1/quickjs-kt-linuxx64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-linuxx64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-macosarm64/1.0.18-yonto.1/quickjs-kt-macosarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-macosarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-macosarm64/1.0.18-yonto.1/quickjs-kt-macosarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-macosarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-macosarm64/1.0.18-yonto.1/quickjs-kt-macosarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-macosarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-macosx64/1.0.18-yonto.1/quickjs-kt-macosx64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-macosx64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-macosx64/1.0.18-yonto.1/quickjs-kt-macosx64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-macosx64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-macosx64/1.0.18-yonto.1/quickjs-kt-macosx64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-macosx64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-mingwx64/1.0.18-yonto.1/quickjs-kt-mingwx64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-mingwx64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-mingwx64/1.0.18-yonto.1/quickjs-kt-mingwx64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-mingwx64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-tvosarm64/1.0.18-yonto.1/quickjs-kt-tvosarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-tvosarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-tvosarm64/1.0.18-yonto.1/quickjs-kt-tvosarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-tvosarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-tvosarm64/1.0.18-yonto.1/quickjs-kt-tvosarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-tvosarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-tvossimulatorarm64/1.0.18-yonto.1/quickjs-kt-tvossimulatorarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-tvossimulatorarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-tvossimulatorarm64/1.0.18-yonto.1/quickjs-kt-tvossimulatorarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-tvossimulatorarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../quickjs-kt-tvossimulatorarm64/1.0.18-yonto.1/quickjs-kt-tvossimulatorarm64-1.0.18-yonto.1.module",
+        "group": "io.github.yonto-app",
+        "module": "quickjs-kt-tvossimulatorarm64",
+        "version": "1.0.18-yonto.1"
+      }
+    }
+  ]
+}
