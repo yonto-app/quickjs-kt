@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Builds :quickjs for every target and publishes it to this fork's `maven` branch,
-# the Maven repository Yonto resolves io.github.kangzj from.
+# the Maven repository Yonto resolves io.github.yonto-app from.
 #
 # Needs what README's Development section lists: run `bun scripts/setupMultiplatformJdks.ts`
 # once, and have Zig 0.12.0 (what publish.yaml pins), CMake, Ninja, Xcode and the Android NDK.
